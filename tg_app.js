@@ -1,2 +1,3 @@
+var WebApp = window.Telegram.WebApp;
 
-let tg_data = window.Telegram.WebApp.WebAppUser.username
+WebApp.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
