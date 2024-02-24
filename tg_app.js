@@ -1,2 +1,2 @@
 
-let tg_data = window.Telegram.WebApp.WebAppUser.username
+let tg_data = window.Telegram.WebApp.initData
